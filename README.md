@@ -1,4 +1,4 @@
-#DOCKER BUILD SCRIPT
+## DOCKER BUILD SCRIPT
 
 winpty docker run -it --name test ubuntu
 apt update
@@ -8,7 +8,7 @@ apt install -y tree
 
 
 
-#USAGES
+## USAGES
 
 * ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
