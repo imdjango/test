@@ -1,10 +1,10 @@
 ## DOCKER BUILD SCRIPT
 
-winpty docker run -it --name test ubuntu
-apt update
-apt install -y net-tools
-apt install -y curl
-apt install -y tree
+* winpty docker run -it --name test ubuntu
+* apt update
+* apt install -y net-tools
+* apt install -y curl
+* apt install -y tree
 
 
 
