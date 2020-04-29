@@ -5,6 +5,8 @@
 * apt install -y net-tools
 * apt install -y curl
 * apt install -y tree
+* docker commit -m "test" test imdjango/test
+* docker push imdjango/test
 
 
 
