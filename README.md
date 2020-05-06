@@ -1,6 +1,6 @@
 ## DOCKER BUILD SCRIPT
-* sudo apt install docker.io
 * sudo -i
+* apt install docker.io
 * docker run -it --name test ubuntu
 * apt update
 * apt install -y nginx
