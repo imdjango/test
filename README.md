@@ -1,4 +1,4 @@
-## DOCKER BUILD SCRIPT (in ubuntu)
+## BUILD SCRIPT (in ubuntu)
 * sudo -i
 * apt install docker.io
 * docker run -it --name test ubuntu
@@ -13,7 +13,8 @@
 
 ## TEST & USAGES
 
-* docker run -d --rm -p 80:80 nginx
+* docker build --rm -t imdjango/nginx .
+* docker run -d --name n1 -p 8888:80 imdjango/nginx
 ```
 
 ```
