@@ -1,10 +1,11 @@
 ## DOCKER BUILD SCRIPT
-
-* winpty docker run -it --name test ubuntu
+* sudo apt install docker.io
+* sudo -i
+* docker run -it --name test ubuntu
 * apt update
-* apt install -y net-tools
-* apt install -y curl
-* apt install -y tree
+* apt install -y nginx
+* exit
+* docker login
 * docker commit -m "test" test imdjango/test
 * docker push imdjango/test
 
