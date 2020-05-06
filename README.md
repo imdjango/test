@@ -12,20 +12,19 @@
 
 
 ## TEST & USAGES
-
+* cd ~
+* git clone https://github.com/imdjango/test
+* cd test
 * docker build --rm -t imdjango/test .
 * docker run -d --name n1 -p 8888:80 imdjango/test
+* open 127.0.0.1:8888
 ```
+Welcome to nginx!
 
-```
+If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
 
-* curl google.com
-```
+For online documentation and support please refer to nginx.org.
+Commercial support is available at nginx.com.
 
-```
-
-* tree
-```
-        .
-
+Thank you for using nginx.
 ```
