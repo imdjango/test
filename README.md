@@ -19,8 +19,9 @@
 * docker run -d -p 8888:80 imdjango/test
 * docker ps -a
 ```
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                           PORTS        
-a2d5bfb178cd        imdjango/test       "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                     0.0.0.0:8888->80/tcp
+STATUS                           PORTS                  NAMES
+8e792d6f7931        imdjango/test       "nginx -g 'daemon of…"   27 seconds ago       Up 26 seconds                    0.0.0.0:8888->80/tcp   priceless_pasteur
+>80/tcp
 ```
 * open 127.0.0.1:8888
 ```
