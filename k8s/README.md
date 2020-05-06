@@ -43,11 +43,7 @@ Events:                   <none>
 
 
 
-###가점: Loaa balancing
-* kubectl get services
-* kubectl scale deploy test --replicas=20
-
-###가점: AutoScaling
+### 가점: AutoScaling
 * kubectl get rs
 ```
 NAME               DESIRED   CURRENT   READY   AGE
