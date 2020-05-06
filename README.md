@@ -13,8 +13,8 @@
 
 ## TEST & USAGES
 
-* docker build --rm -t imdjango/nginx .
-* docker run -d --name n1 -p 8888:80 imdjango/nginx
+* docker build --rm -t imdjango/test .
+* docker run -d --name n1 -p 8888:80 imdjango/test
 ```
 
 ```
