@@ -40,3 +40,17 @@ Session Affinity:         None
 External Traffic Policy:  Cluster
 Events:                   <none>
 ```
+
+
+
+###가점: Loaa balancing
+* kubectl get services
+* kubectl scale deploy test --replicas=20
+
+###가점: AutoScaling
+* kubectl get rs
+'''
+NAME               DESIRED   CURRENT   READY   AGE
+test-69b99fbb8     20        20        0       16m
+'''
+* kubectl autoscale rs test-69b99fbb8 --max=40
