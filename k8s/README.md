@@ -49,8 +49,8 @@ Events:                   <none>
 
 ###가점: AutoScaling
 * kubectl get rs
-'''
+```
 NAME               DESIRED   CURRENT   READY   AGE
 test-69b99fbb8     20        20        0       16m
-'''
+```
 * kubectl autoscale rs test-69b99fbb8 --max=40
