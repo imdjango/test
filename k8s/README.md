@@ -1,4 +1,5 @@
-## SCRIPT
-* kubectl run nginx -image=nginx --port=80
+## USAGE
 * kubectl describe service/describe
-* kubectl scale deploy nginx --replicas=20
+```
+
+```
