@@ -2,7 +2,7 @@
 * sudo -i
 * apt install docker.io
 * docker run -it --name test ubuntu
-* apt update
+* apt update -y
 * apt install -y nginx
 * exit
 * docker login
