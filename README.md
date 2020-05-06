@@ -1,4 +1,4 @@
-## DOCKER BUILD SCRIPT
+## DOCKER BUILD SCRIPT (in ubuntu)
 * sudo -i
 * apt install docker.io
 * docker run -it --name test ubuntu
