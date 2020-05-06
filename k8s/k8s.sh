@@ -1,1 +1,1 @@
-kubectl run test -image=imdjango/test --pods=20 --port=80
+kubectl run test -image=imdjango/test --port=80
