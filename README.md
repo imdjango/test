@@ -16,11 +16,11 @@
 * git clone https://github.com/imdjango/test
 * cd test
 * docker build --rm -t imdjango/test .
-* docker run -d --name n1 -p 8888:80 imdjango/test
+* docker run -d -p 8888:80 imdjango/test
 * docker ps -a
 ```
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                           PORTS                  NAMES
-a2d5bfb178cd        imdjango/test       "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                     0.0.0.0:8888->80/tcp   n2
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                           PORTS        
+a2d5bfb178cd        imdjango/test       "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                     0.0.0.0:8888->80/tcp
 ```
 * open 127.0.0.1:8888
 ```
