@@ -1,28 +1,4 @@
 ## USAGE
-* kubectl get pods
-```
-NAME                     READY   STATUS              RESTARTS   AGE
-test-69b99fbb8-2cbk8     0/1     ContainerCreating   0          13s
-test-69b99fbb8-4nc8x     0/1     ContainerCreating   0          13s
-test-69b99fbb8-59h46     0/1     ContainerCreating   0          13s
-test-69b99fbb8-8jdw9     0/1     ContainerCreating   0          13s
-test-69b99fbb8-8l5b6     0/1     ContainerCreating   0          13s
-test-69b99fbb8-96tjj     0/1     ContainerCreating   0          13s
-test-69b99fbb8-9w6f6     0/1     ContainerCreating   0          13s
-test-69b99fbb8-bccpl     0/1     ContainerCreating   0          13s
-test-69b99fbb8-f868x     0/1     ContainerCreating   0          13s
-test-69b99fbb8-hgrsz     0/1     ContainerCreating   0          13s
-test-69b99fbb8-k2lnx     0/1     ContainerCreating   0          13s
-test-69b99fbb8-l8b6d     0/1     ContainerCreating   0          13s
-test-69b99fbb8-mhjzr     0/1     ContainerCreating   0          13s
-test-69b99fbb8-qgqjr     0/1     ContainerCreating   0          13s
-test-69b99fbb8-s8hlv     0/1     ContainerCreating   0          13s
-test-69b99fbb8-sl9td     0/1     ContainerCreating   0          13s
-test-69b99fbb8-tkv6m     0/1     ContainerCreating   0          13s
-test-69b99fbb8-tnnvl     0/1     ContainerCreating   0          13s
-test-69b99fbb8-vrglm     0/1     ContainerCreating   0          13s
-
-```
 * kubectl describe svc/test
 ```
 Name:                     test
